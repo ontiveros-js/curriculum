@@ -64,7 +64,28 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            
+            <div>
+                <div className="div-card">
+                    <h3>E-commerce</h3>
+                    <p>E-commerce es la típica app de comercio electrónico para 
+                    facilitar las ventas de artuculos en internet.
+                    </p>
+                    <div className="div-link">
+                        <div>
+                            <h4>Link del proyecto</h4>
+                            <a href=" https://app-tienda-virtual.netlify.app" target="_blank">
+                                E-commerce app
+                            </a><img className="click" src={click}/>
+                        </div>
+                        <div>
+                           <h4>Link del repositorio</h4>
+                            <a href="https://github.com/ontiveros-js/tienda-virtual.git" target="_blank">
+                                E-commerce repo
+                            </a><img className="click" src={click}/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     )
 }

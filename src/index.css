@@ -19,13 +19,18 @@ body {
 }
 
 .div-card{
-  border-radius: 25px;
+  border-radius: 8px;
   background-color: white;
   padding: 8px;
   margin: 10px 0;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
+
+.div-card h3{
+  margin-top: 5px;
+}
+
 .cen{
   text-align: center;
 }
@@ -57,8 +62,8 @@ body {
 }
 
 .click{
-  width: 15px;
-  height: 18px;
+  width: 12px;
+  height: 15px;
   margin: 0;
 }
 
@@ -85,8 +90,8 @@ p{
 }
 
 a{
+  display: inline-block;
   text-decoration: none;
-  color: black;
   word-wrap: break-word;
   hyphens: auto;
 }
