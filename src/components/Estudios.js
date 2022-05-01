@@ -6,13 +6,13 @@ const Estudios = () => {
   const {idioma} = useGetContext()
 
   return (
-    <section className="section-Est">
+    <section className="section animate__animated animate__fadeInRight">
       <h2>{idioma ? "Estudios" : "Studies" }</h2>
       <ul>
         <li>{idioma ? "E.T.I.R. Francisco González Guinán (Educación media)." : "E.T.I.R. Francisco González Guinán (High school)." }</li>
         <li>
         {idioma ? "Empece a estudiar desarrollo web con Platzi. " : "I started studying web development with Platzi. " }
-          <a href="https://platzi.com/p/ontiveros/" target="_blank">
+          <a href="https://platzi.com/p/ontiveros/" target="_blank" rel="noreferrer">
             {idioma ? "Mi perfil." : "My profile." }
           </a>
         </li>

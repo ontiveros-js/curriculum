@@ -13,7 +13,7 @@ const Tecnologias = () => {
   const {idioma} = useGetContext()
 
   return (
-    <section className="section">
+    <section className="section animate__animated animate__backInRight">
       <h2>{idioma ? "Tecnologías" : "Technologies"}</h2>
       <hr />
       <ul className="tecno-ul">

@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./components/Home";
+import "animate.css"
 import Main from "./components/Main";
 
 function App() {

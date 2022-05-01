@@ -9,8 +9,10 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #182848;
-  background: -webkit-linear-gradient(to top, #D7DDE8, #757F9A); 
-  background: linear-gradient(to top, #D7DDE8, #131722);
+  background: -webkit-linear-gradient(to right, #e8f5ff, #c3e3fd); 
+  background: linear-gradient(to right, #e8f5ff, #c3e3fd); 
+  
+  
 }
 
 a{
@@ -23,7 +25,7 @@ li, ul{
   list-style: none;
 }
 
-h2{
+h2, h4, h3{
   margin-bottom: 0;
 }
 
@@ -46,8 +48,11 @@ hr{
   grid-template-columns: 15% 1fr;
   width: 100%;
   height: 100px;
-  background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
-  background: linear-gradient(to right, #182848, #4b6cb7);
+  text-align: center;
+  background: -webkit-linear-gradient(to right, #c3e3fd, #9acef8);
+  background: linear-gradient(to right, #c3e3fd, #9acef8);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 
 }
 
@@ -56,7 +61,8 @@ hr{
   justify-content: center;
   align-items: center;
   margin: 0;
-  margin-right: 10%;
+  margin-right: 15%;
+  text-shadow: 3px 3px 3px white;
 
 }
 
@@ -115,68 +121,22 @@ text-align: center;
 }
 
 .section{
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   text-align: center;
   padding-top: 40px ;
-}
-
-.section-Exp{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
-}
-
-.section-Hab{
-  margin: 0 auto;
-  width: 80%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center
-}
-
-.section-Est{
-  margin: 0 auto;
-  width: 80%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center
-}
-
-.section-PP{
-  width: 80%;
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
-  padding-bottom: 24px;
+  padding-bottom: 40px ;
 
 }
 
-.section-PP .div-link{
+.section .div-link{
   display: flex;
   justify-content: space-evenly;
-}
-
-.section-PP h4, h3{
-  margin-bottom: 0;
 }
 
 .imgHome{
@@ -224,4 +184,16 @@ text-align: center;
   width: 100%;
   min-height: 100%;
   
+}
+
+@media (max-width: 380px ) {
+
+  .header h1{
+    margin-right: 5%;
+  }
+  
+  .header button{
+    margin-left: 5%;
+  } 
+
 }

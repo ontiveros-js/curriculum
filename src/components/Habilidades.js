@@ -6,7 +6,7 @@ const Habilidades = () => {
   const {idioma} = useGetContext()
 
   return (
-    <section className="section-Hab">
+    <section className="section animate__animated animate__backInLeft">
       <>
         <h2>{idioma ? "Habilidades" : "Skills"}</h2>
         <hr />
